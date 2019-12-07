@@ -1,0 +1,8 @@
+server:
+  compression:
+    enabled: true
+    min-response-size: 2KB
+
+logging.level:
+  reactor.netty: trace
+  io.netty: trace
